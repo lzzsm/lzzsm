@@ -14,6 +14,9 @@
 </div>
  
 <br>
+### Sobre mim!
+<p>Técnico em Informática com foco em programação, iniciando no mercado de trabalho, mas com experiência no desenvolvimento de software. Tenho conhecimentos em PHP, TypeScript, JavaScript e estou me aprofundando em Node.js e frameworks como React. Possuo experiência com diagramas UML e metodologias ágeis, como Scrum. Sou proativo, curioso e sempre em busca de aprender novas tecnologias e boas práticas de desenvolvimento.</p>
+<br>
  
 ### Minhas redes abaixo!
  
