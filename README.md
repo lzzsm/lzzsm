@@ -19,7 +19,7 @@
 
 ### Sobre mim!
 
-<p>Técnico em Informática com foco em programação, iniciando no mercado de trabalho, mas com experiência no desenvolvimento de software. Tenho conhecimentos em HTML, CSS, PHP, JavaScript e estou me aprofundando em Node.js e frameworks como React e Laravel. Possuo experiência com diagramas UML e metodologias ágeis, como Scrum. Sou proativo, curioso e sempre em busca de aprender novas tecnologias e boas práticas de desenvolvimento.</p>
+<p>Olá, me chamo Luiz Felipe. Sou Técnico em Informática com foco em desenvolvimento de software e websites, iniciando no mercado de trabalho, mas com experiência no desenvolvimento de software. Tenho conhecimentos em HTML, CSS, PHP, Bootstrap, Tailwind, JavaScript e estou me aprofundando em Node.js e frameworks como React e Laravel. Possuo experiência com diagramas UML e metodologias ágeis, como Scrum. Sou proativo, curioso e sempre em busca de aprender novas tecnologias e boas práticas de desenvolvimento.</p>
  
 ### Minhas redes abaixo!
  
