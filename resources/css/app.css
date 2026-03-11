@@ -1,0 +1,548 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+/* CSS geral de layout */
+
+/* Ajustes de responsividade para o conteúdo principal */
+#mainContent {
+    transition: margin-left 0.3s ease;
+}
+
+/* Ajustes de responsividade para o footer */
+#globalFooter {
+    transition: margin-left 0.3s ease;
+}
+
+/* Desktop - quando sidebar está aberta */
+@media (min-width: 768px) {
+    #mainContent.sidebar-open {
+        margin-left: 16rem;
+        /* 64 = 16rem */
+    }
+
+    #globalFooter.sidebar-open {
+        margin-left: 16rem;
+        /* 64 = 16rem */
+    }
+}
+
+.dropdown-icon {
+    transition: all 0.3s ease;
+    transform: translateY(0) rotate(0);
+}
+
+.dropdown-icon.active {
+    transform: translateY(2px) rotate(90deg);
+    fill: #a3e635;
+}
+
+/* Substitua o CSS anterior por isso: */
+.sidebar-item.active .sidebar-button {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-item.active .w-1 div {
+    transform: translateY(0);
+    background-color: #a3e635;
+}
+
+.sidebar-item.active .fill-gray-400 {
+    fill: #a3e635;
+}
+
+.sidebar-item.active .font-QuicksandMedium {
+    color: #a3e635;
+}
+
+.user-dropdown-menu {
+    transition: opacity 0.3s ease;
+}
+
+.user-dropdown-menu.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* User dropdown - estilo similar à navbar mas menor */
+.user-dropdown-item {
+    padding: 8px 12px;
+    font-size: 0.875rem;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+.user-dropdown-item:hover {
+    background: rgba(34, 197, 94, 0.1);
+    transform: translateX(2px);
+}
+
+/* Efeito hover suave */
+.sidebar-item:hover {
+    transform: translateX(3px);
+}
+
+/* notificação / pop-up */
+.animate-slide {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+#notification {
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+
+
+
+/* Animações e efeitos visuais para a landing page Perseph */
+
+/* Animação de entrada do hero */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Animação de pulso para os círculos */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(20, 184, 166, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(20, 184, 166, 0);
+    }
+}
+
+/* Animação de brilho para badges */
+@keyframes glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px rgba(132, 204, 22, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(132, 204, 22, 0.8),
+            0 0 30px rgba(132, 204, 22, 0.6);
+    }
+}
+
+/* Animação de linha do timeline */
+@keyframes drawLine {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 100%;
+    }
+}
+
+/* Animações do hero */
+.hero-title {
+    animation: fadeInDown 1s ease-out 0.5s both;
+}
+
+.hero-subtitle {
+    animation: fadeInUp 1s ease-out 1s both;
+}
+
+.hero-buttons {
+    animation: fadeInUp 1s ease-out 1.5s both;
+}
+
+/* Efeito de borda brilhante */
+.glowing-border {
+    position: relative;
+    overflow: hidden;
+}
+
+.glowing-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(132, 204, 22, 0.4), transparent);
+    transition: left 0.5s;
+}
+
+.glowing-border:hover::before {
+    left: 100%;
+}
+
+/* Animação de pulso para círculos */
+.circle-pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Efeito hover para cards */
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Animação de brilho para badges */
+.badge-glow {
+    animation: glow 3s ease-in-out infinite;
+}
+
+/* Linha do timeline */
+.timeline-line {
+    animation: drawLine 2s ease-out;
+}
+
+/* Classes para animações de scroll reveal */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline-item {
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.timeline-item[data-direction="right"] {
+    transform: translateX(-50px);
+}
+
+.timeline-item[data-direction="left"] {
+    transform: translateX(50px);
+}
+
+.timeline-item.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Efeitos de hover para botões */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Animação de entrada suave para ícones SVG */
+svg {
+    transition: all 0.3s ease;
+}
+
+.timeline-item:hover svg {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* Efeito de ondulação no hover dos círculos */
+.circle-pulse:hover {
+    animation: pulse 0.5s ease-out;
+}
+
+/* Gradiente animado para texto destacado */
+.text-emerald-400 {
+    background: linear-gradient(45deg, #34d399, #059669, #10b981);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Efeito de flutuação suave */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.hero-content {
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Estilos para cards adicionais */
+.additional-card {
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+.additional-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-color: #059669;
+}
+
+.additional-card .w-12 {
+    transition: all 0.3s ease;
+}
+
+.additional-card:hover .w-12 {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.3);
+}
+
+/* Estilos para a seção Call-to-Action */
+.cta-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.cta-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cta-icon {
+    animation: ctaIconPulse 2s ease-in-out infinite;
+}
+
+@keyframes ctaIconPulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(132, 204, 22, 0.7);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 20px rgba(132, 204, 22, 0);
+    }
+}
+
+.cta-benefit {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.cta-benefit.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cta-benefit:hover {
+    transform: translateY(-5px);
+}
+
+.cta-benefit:hover .w-16 {
+    transform: scale(1.1);
+    background-color: rgba(132, 204, 22, 0.3);
+}
+
+/* Animação de entrada escalonada para benefícios */
+.cta-benefit:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.cta-benefit:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.cta-benefit:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .timeline-item {
+        flex-direction: column;
+    }
+
+    .timeline-item .w-1\/2 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .timeline-line {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.125rem;
+    }
+}
+
+/* Efeito de loading suave */
+.loading-fade {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Efeito de transição suave entre seções */
+section {
+    transition: all 0.5s ease;
+}
+
+/* Animação de entrada escalonada para elementos */
+.stagger-animation {
+    animation-delay: calc(var(--stagger-delay, 0) * 0.1s);
+}
+
+
+
+
+
+
+
+
+
+/* CSS geral */
+
+/* Estilo para o placeholder do mapa na página Show */
+#mapPlaceholder {
+    height: 400px;
+    border-radius: 1rem;
+    background-color: #e5e7eb; /* cinza claro (gray-200) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #6b7280; /* cinza (gray-500) */
+    font-weight: 500;
+    border: 2px dashed #d1d5db; /* borda tracejada (gray-300) */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Customização dos popups do Leaflet */
+.leaflet-popup-content-wrapper {
+    border-radius: 0.5rem;
+}
+
+.leaflet-popup-content {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.leaflet-popup-content b {
+    color: #166534; /* Cor verde escura (Tailwind green-800) */
+}
+
+.leaflet-popup-content a {
+    color: #15803d; /* Cor verde (Tailwind green-700) */
+    text-decoration: underline;
+}
