@@ -70,6 +70,6 @@ Sistema gamificado de incentivo à reciclagem e educação ambiental
     
 10. Acesse no navegador: http://localhost:8000
    
-## License
+## Licença
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+O framework Laravel é um software de código aberto licenciado sob a [licença MIT](https://opensource.org/licenses/MIT).
