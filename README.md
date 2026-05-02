@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Hello, I'm Luiz Felipe and I'm a Software Developer from Votuporanga</p>
+<p align="left">I am a trained IT technician and currently pursuing a Bachelor's degree in Information Systems, focusing on software and website development. I possess solid knowledge of HTML, CSS, JavaScript, PHP, Laravel, Node.js, MySQL, React, and TailwindCSS. I am characterized by my proactive nature, intellectual curiosity, and commitment to the continuous learning of new technologies and the adoption of best development practices. I seek opportunities to apply and expand my technical skills, contributing to challenging and innovative projects.</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2023<br>📚 I'm currently learning Vue.js and React</p>
+<p align="left">✨ Creating bugs since 2023<br>📚 I'm currently learning React, Next.js and TypeScript</p>
 
 ###
 
