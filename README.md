@@ -1,24 +1,31 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<h1 align="center">Hey 👋 What's up?</h1>
 
 ###
 
-<p align="left">I am a trained IT technician and currently pursuing a Bachelor's degree in Information Systems, focusing on software and website development. I possess solid knowledge of HTML, CSS, JavaScript, PHP, Laravel, Node.js, MySQL, React, and TailwindCSS. I am characterized by my proactive nature, intellectual curiosity, and commitment to the continuous learning of new technologies and the adoption of best development practices. I seek opportunities to apply and expand my technical skills, contributing to challenging and innovative projects.</p>
+<p align="center">Full-Stack Developer with end-to-end web projects developed independently, from back-end to front-end. I work with PHP, Laravel, Node.js, React, and TailwindCSS to build functional and well-structured applications.<br> <br>Computer Science Technician, currently pursuing a Bachelor’s degree in Information Systems. Projects using MySQL, PostgreSQL, and SQLite, always with a focus on best practices and clean code. All developed on my own initiative.<br> <br>Open to opportunities as a Full Stack Developer or in Back-End and Front-End roles.</p>
 
 ###
 
-<h2 align="left">About me</h2>
+<h2 align="center">About me</h2>
 
 ###
 
-<p align="left">✨ Creating bugs since 2023<br>📚 I'm currently learning React, Next.js and TypeScript</p>
+<p align="center">✨ Creating bugs since 2023<br>📚 I'm currently learning Vue.js and React</p>
 
 ###
 
-<h2 align="left">I code with</h2>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/lzzsm/lzzsm/stats-output/stats.svg" height="150" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=lzzsm&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
+</div>
 
 ###
 
-<div align="left">
+<h2 align="center">I code with</h2>
+
+###
+
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="50" alt="php logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="50" alt="laravel logo"  />
@@ -46,15 +53,19 @@
 
 ###
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/luiz-felipe-sanches-melozi-5b812b307/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="linkedin logo"  />
+<h2 align="center">Social networks</h2>
+
+###
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/luizmelozi" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   <a href="https://instagram.com/luizmelozi" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="instagram logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
   </a>
   <a href="mailto:zilomezm@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="gmail logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
 </div>
 
@@ -63,5 +74,9 @@
 <div>
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
 </div>
+
+###
+
+<img src="https://raw.githubusercontent.com/lzzsm/lzzsm/snake-output/snake.svg" alt="Snake animation" />
 
 ###
