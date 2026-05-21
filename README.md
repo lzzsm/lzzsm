@@ -52,12 +52,6 @@
 
 ###
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=lzzsm&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
-</div>
-
-###
-
 <h2 align="center">Social networks</h2>
 
 ###
